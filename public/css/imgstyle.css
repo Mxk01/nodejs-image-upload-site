@@ -1,0 +1,43 @@
+#main-container
+{
+  background:white;
+  display:flex;
+  font-size:2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  height:80vh;
+  width:60vw;
+  color:black;
+  border-radius:30px;
+
+}
+a
+{
+  color:white;
+  font-size:1rem;
+  background:orange;
+  padding:1.2rem;
+  text-decoration: none;
+  cursor:pointer;
+  border-radius:30px;
+  margin:1rem;
+
+}
+
+body
+{
+  background:rgb(35,33,44);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img
+{
+  width:400px;
+  height:400px;
+  margin:1rem;
+}

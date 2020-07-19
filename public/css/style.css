@@ -10,6 +10,7 @@
   background:rgb(35,33,44);
   display:flex;
   font-size:1.5rem;
+  font-weight:100;
   flex-direction: column;
   justify-content: center;
   align-items: center;
