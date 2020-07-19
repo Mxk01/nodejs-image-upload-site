@@ -1,0 +1,40 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content= "width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+<link href="/css/style.css" rel="stylesheet">
+<body>
+<header id="main-header">
+  <div class="intro">
+  		<h1 class="action">LoUp</h1>
+  		<h1 class="typing"></h1>
+  	</div>
+</header>
+<div id="split-screen">
+<img src="https://c.wallhere.com/photos/fd/d9/cats_animals_cat_ears_whiskers_pet_fur_Unsplash-1919407.jpg!d" id="main-image"></img>
+<div id="main-container">
+
+<form method="POST" action="/upload-profile-image" enctype="multipart/form-data">
+  <div>
+    <h2>Please select your profile picture</h2>
+    <input type="file" class="custom-file-input pics" name="profile_pic"/>
+  </div>
+  <div>
+    <input type="submit"  id="btn" name="upload_profilepic" value="Upload">
+  </div>
+</form>
+
+
+<form method="POST" action="/upload-image-multiple" enctype="multipart/form-data">
+  <div>
+    <h2>Upload multiple images</h2>
+    <input type="file" class="custom-file-input pics"  name="multiple_images" multiple/>
+  </div>
+  <div>
+    <input type="submit" id="btn" name="upload_multiple" value="Upload">
+  </div>
+</form>
+</div>
+</div>
+<script src="/js/text-animation.js"></script>
+</body>
